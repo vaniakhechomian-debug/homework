@@ -1,50 +1,48 @@
-# HW1 - Group Trip Budget Calculator
-
-**Main file:** `homework1.ipynb`
+# HW2 - Group Trip Budget Calculator
 
 ## 1. Run command
-
-Opened `homework1.ipynb` in VS Code and ran the notebook cells using the Run button.
+Opened `homework2.ipynb` in VS Code and ran the notebook cell using the Run button.
 
 ## 2. Example run
 
-File: `homework1.ipynb`
-Program output: Group trip budget calculator
+**File:** `homework2.ipynb`
 
-Number of travelers: 10
-Number of nights: 5
+**Input:**
+- Number of travelers: 10
+- Number of nights: 5
+- Accommodation cost per person per night: 10,000
+- Transportation cost per person: 4,000
+- Daily food cost per person: 5,000
 
-Results:
-- Nightly accommodation: 1000000
-- Whole trip accommodation: 20000
-- Daily food: 60000
-- Total: 5320000
+**Results:**
+- Trip duration: 6 days
+- Total accommodation cost for the group: 500,000
+- Total transportation cost for the group: 40,000
+- Total food cost for the group: 300,000
+- Total group trip budget: 840,000
 
 ## 3. Prediction before the second run
 
-I expected all costs to double when the number of travelers increased from 10 to 20, while the number of nights stayed the same.
+If the number of travelers doubles while all other inputs stay the same:
+
+- Total accommodation cost will double.
+- Total transportation cost will double.
+- Total food cost will double.
+- Per-person costs will stay the same.
+- Number of nights and trip days will stay the same.
 
 ## 4. Observed second run and explanation
 
-File: `homework1.ipynb`
+Record the inputs and results of the second run.
 
-Number of travelers: 20
-Number of nights: 5
-
-Results:
-- Nightly accommodation: 2000000
-- Whole trip accommodation: 40000
-- Daily food: 120000
-- Total: 10640000
-
-The results matched my prediction. All costs doubled because the number of travelers doubled while the number of nights remained the same.
+Compare the results with the prediction and explain whether doubling the number of travelers doubled the total group expenses.
 
 ## 5. AI assistance
 
-AI assistance was used to understand the assignment instructions and organize the README. I checked the calculations and program outputs myself.
+ChatGPT was used to help review the total budget calculation, understand the formula, and improve the README documentation.
 
-## 6. Work time or support
+The code was tested in VS Code, and the calculated results were checked manually.
 
-Coding and checking time: Approximately 3 hours.
+## 6. Work time or support (optional)
 
-Git setup and troubleshooting: Approximately 2 additional hours.
+Approximate coding and checking time: about 5 hours.
