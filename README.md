@@ -9,6 +9,7 @@ Opened `homework1.ipynb` in VS Code and ran the notebook cells using the Run but
 ## 2. Example run
 
 File: `homework1.ipynb`
+Program output: Group trip budget calculator
 
 Number of travelers: 10
 Number of nights: 5
